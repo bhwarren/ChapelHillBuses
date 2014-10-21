@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>COMP 426: A3 Mockup</title>
+	<link rel="stylesheet" type="text/css" href="a3.css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<img src="images/logo.jpg" alt="NextBus logo">
+
+			<form name="login">
+				<div>
+					<input type="submit" value="Login">
+				</div>
+				<div id="passwordDiv">
+					<label for="password">Password</label>
+					<input id="password">
+				</div>
+				<div id="usernameDiv">
+					<label for="username">Username</label>
+					<input id="username">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="page">
+		<div id="favorites">
+			<table summary="A person's favorite stops and routes">
+				<tr>
+					<td><p>Stop: Sitterson</p></td>
+					<td><p><span>Route: NS</span></p> <p><span>Stop: Siterson</span></p></td>
+				</tr>
+			</table>
+		</div>
+
+		<nav>
+			<p><a href="">Bus Schedules</a></p>
+			<p><a href="">Help</a></p>
+		</nav>
+
+		<div id="weather"><p>Some weather info will be here</p></div>
+
+		<div id="bus_select">
+			<div id="city"><p>Chapel Hill Transit</p></div>
+			<div id="select_by_route">
+				<p>
+					<label>Stop</label>
+					<select name="route">
+						<option value="NS">NS</option>
+						<option value="RU">RU</option>
+					</select>
+				</p>
+			</div>
+			<div id="select_by_r_and_s">
+				<p>
+					<label>Stop</label>
+					<select name="route2">
+						<option value="NS">NS</option>
+						<option value="RU">RU</option>
+					</select>
+				</p>
+				<p>
+					<label>Route</label>
+					<select name="stop">
+						<option value="Sitterson">Sitterson</option>
+						<option value="Union">Sutdent Union</option>
+					</select>
+				</p>
+			</div>
+
+			<div id="results">
+				<p>RESULTS WILL BE HERE</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
