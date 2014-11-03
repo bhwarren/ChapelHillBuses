@@ -1,0 +1,91 @@
+#header {
+	background-color: #76BC1E;
+	overflow: hidden;
+}
+
+#header:first-child {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header img {
+	float: left;
+}
+
+#usernameDiv, #passwordDiv, input[type=submit] {
+	float: right;
+}
+
+#page {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form[name=login] label {
+	color: white;
+}
+
+td {
+	width: 150px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+td p {
+	margin: 0;
+	padding: 0;
+}
+
+#bus_select {
+	padding-top: 10px;
+	text-align: center;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#select_by_route, #select_by_r_and_s {
+	font-size: 125%;
+	border: 1px solid black;
+	width: 49%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+}
+
+#select_by_route {
+	float: left;
+}
+
+#select_by_r_and_s {
+	float: right;
+}
+
+option {
+	font-size: 125%;
+}
+
+#city {
+	font-size: 200%;
+	border: 1px solid black;
+
+}
+
+#results {
+	font-size: 200%;
+	border: 1px solid black;
+}
+
+nav {
+	padding-top: 50px;
+	float: left;
+}
+
+#weather {
+	margin-right: 10%;
+	padding-top: 50px;
+	float: right;
+	width: 100px;
+}
