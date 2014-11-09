@@ -96,3 +96,8 @@ nav {
 	float: right;
 	width: 100px;
 }
+
+#city > p {
+	font-family: verdana;
+	color: white;
+}
