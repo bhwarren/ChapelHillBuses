@@ -30,7 +30,7 @@ form[name=login] label {
 td {
 	width: 150px;
 	text-align: center;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 td p {
@@ -61,6 +61,7 @@ td p {
 
 #select_by_r_and_s {
 	width: 100%;
+	border: 1px solid black;
 	/*float: right;*/
 }
 
@@ -91,8 +92,8 @@ nav {
 }
 
 #weather {
-	margin-right: 5%;
-	padding-top: 50px;
+	margin-right: 10%;
+	padding-top: 2%;
 	float: right;
 	width: 100px;
 }
