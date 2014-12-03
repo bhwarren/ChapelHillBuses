@@ -8,6 +8,7 @@
 	<script src="showBuses.js"></script>
 </head>
 <body>
+
 	<div id="header">
 		<div>
 			<img src="images/logo.jpg" alt="NextBus logo">
@@ -30,6 +31,15 @@
 			-->
 		</div>
 	</div>
+	<div id="admin">
+		<p>Please add a new route</p>
+		 <form action="">
+		   	Route: <input type="text" id="new_route"><br><br>
+			<input type="button" value="Submit">
+		</form> 
+		<br><br><br>
+		<button id="close" type="button">X</button> 
+	</div>
 
 	<div id="page">
 		<!--
@@ -46,6 +56,7 @@
 		<nav>
 			<p><a href="">Bus Schedules</a></p>
 			<p><a href="">Help</a></p>
+			<p><a href="" id="admin_button">Admin</a></p>
 		</nav>
 
 		<div id="weather">
