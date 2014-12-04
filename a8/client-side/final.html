@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>COMP 426: Final Project</title>
+	<link rel="stylesheet" type="text/css" href="final.css">
+	<script src="http://www.cs.unc.edu/Courses/comp426-f14/jquery-1.11.1.js"></script>
+	<script src="showBuses.js"></script>
+</head>
+<body>
+
+	<div id="header">
+		<div>
+			<img src="images/logo.jpg" alt="NextBus logo">
+
+			<div id="city"><p>Chapel Hill Transit</p></div>
+			<!--
+			<form name="login">
+				<div>
+					<input type="submit" value="Login">
+				</div>
+				<div id="passwordDiv">
+					<label for="password">Password</label>
+					<input id="password">
+				</div>
+				<div id="usernameDiv">
+					<label for="username">Username</label>
+					<input id="username">
+				</div>
+			</form>
+			-->
+		</div>
+	</div>
+	<div id="admin">
+		<p>Please add a new route</p>
+		 <form action="">
+		   	Route: <input type="text" id="new_route"><br><br>
+			<input type="button" value="Submit">
+		</form> 
+		<br><br><br>
+		<button id="close" type="button">X</button> 
+	</div>
+
+	<div id="page">
+
+		<nav>
+			<p><a href="http://townofchapelhill.org/town-hall/departments-services/transit/routes-schedules/all-routes-schedules">Bus Schedules</a></p>
+			<p><a href="">Help</a></p>
+			<p><a href="" id="admin_button">Admin</a></p>
+		</nav>
+
+		<div id="weather">
+			<script type="text/javascript" src="http://voap.weather.com/weather/oap/27516?template=GENXV&par=3000000007&unit=0&key=twciweatherwidget"></script>
+		</div>
+
+		<div id="bus_select">
+			<div id="select_by_r_and_s">
+				<p>
+					<label>Stop</label>
+					<select name="stop" class="stop_select">
+						<option value="Southern Human Services">Southern Human Services</option>
+						<option value="Hillsborough St at MLK Jr Blvd">Hillsborough St. at MLK Jr. Blvd.</option>
+						<option value="Manning Dr at UNC Hospitals">Manning Dr. at UNC Hospitals</option>
+						<option value="N Columbia St at Rosemary St">N. Columbia St. at Rosemary St.</option>
+						<option value="Mitchell Ln at Caldwell St">Mitchell Ln. at Caldwell St.</option>
+						<option value="Weiner St at Severin St">Weiner St. at Severin St.</option>
+						<option value="N Columbia St at W Franklin St">N. Columbia St. at W. Franklin St.</option>
+						<option value="Manning Dr at Parking Deck">Manning Dr. at Parking Deck</option>
+					</select>
+				</p>
+				<p>
+					<label>Route</label>
+					<select name="route2" class="route_select">
+						<option value="all">All Buses</option>
+						<option value="A">A</option>
+					</select>
+				</p>
+			</div>
+
+			<div id="results">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

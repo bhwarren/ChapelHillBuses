@@ -1,0 +1,116 @@
+#header {
+	background-color: #76BC1E;
+	overflow: hidden;
+}
+
+#header img {
+	float: left;
+}
+
+#usernameDiv, #passwordDiv, input[type=submit] {
+	float: right;
+}
+
+#admin{
+	float: left;
+	position: absolute;
+	background-color: white;
+	border: thin black solid;
+	width: 270px;
+	height: 350px;
+}
+
+#page {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#close{
+	position: absolute;
+	right:    0;
+	top:   0;
+}
+
+input[value="Submit"]{
+	float: left;
+}
+
+td {
+	width: 150px;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+td p {
+	margin: 0;
+	padding: 0;
+}
+
+#bus_select {
+	padding-top: 10px;
+	text-align: center;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#select_by_route, #select_by_r_and_s {
+	font-size: 125%;
+	border: 1px solid black;
+	/*width: 49%;*/
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+}
+
+#select_by_route {
+	float: left;
+}
+
+#select_by_r_and_s {
+	width: 100%;
+	border: 1px solid black;
+	background-color: #C2C2C2;
+	/*float: right;*/
+}
+
+option {
+	font-size: 125%;
+}
+
+#city {
+	font-size: 200%;
+	/*border: 1px solid black;*/
+	float: right;
+
+	padding-right: 10%;
+	/*vertical-align: text-top;*/
+	position: relative;
+	  top: 50%;
+	    transform: translateY(50%);
+}
+
+#results {
+	font-size: 200%;
+	border: 1px solid black;
+	background-color: #C2C2C2;
+}
+
+nav {
+	padding-top: 50px;
+	float: left;
+}
+
+#weather {
+	margin-right: 9%;
+	padding-top: 2%;
+	float: right;
+	width: 100px;
+}
+
+#city > p {
+	font-family: verdana;
+	color: white;
+}

@@ -1,0 +1,29 @@
+JSON Encoding
+{rid:<integer>,
+ code:<string>}
+
+
+URLs Supported
+The base URL for all subsequent URLs is http://wwwp.cs.unc.edu/Courses/comp426-f14/alexjp/a8/server-side/
+
+GET /route.php
+	Returns a JSON-encoded array of integers representing the rid values of all Routes
+
+GET /route.php/<rid>
+	Returns the JSON representation of the Route item with rid matching <rid>
+
+POST /route.php
+	Creates a new Route item from information provided as parameters
+	Parameters:
+		code: string representing the bus route code (e.g., NS or T); required
+	Result is the JSON encoding of the new Route item
+
+POST /route.php/<id>
+	Updates the vales associated with Route item identified by <rid>
+	Parameters:
+		code: string representing the bus route code (e.g., NS or T); required
+	Result is the JSON encoding of the new Route item
+
+GET /route.php/<rid>?delete
+	Deletes the Route item identified by <rid>
+	Returns the JSON encoding of {true} if successful
