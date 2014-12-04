@@ -35,7 +35,7 @@ $(document).ready(function () {
                 }
                 else{
                         //send ajax tdo php
-                        $.post(url_base+"/newBus.php", 
+                        $.post("http://wwwp.cs.unc.edu/Courses/comp426-f14/alexjp/a8/server-side/route.php/", 
                                {code: input},
                                function(){alert("success sending request to make new route");}                                
                         );
